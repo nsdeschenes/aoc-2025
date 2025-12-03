@@ -36,7 +36,7 @@ async function solvePartOne(filename: string): Promise<void> {
     }
   }
 
-  console.log("zeroHitCounter", zeroHitCounter);
+  console.log("Part one:", zeroHitCounter);
 }
 
 async function solvePartTwo(filename: string): Promise<void> {
@@ -86,7 +86,7 @@ async function solvePartTwo(filename: string): Promise<void> {
     }
   }
 
-  console.log("zeroHitCounter", zeroHitCounter);
+  console.log("Part two:", zeroHitCounter);
 }
 
 await solvePartOne("puzzle-input");
