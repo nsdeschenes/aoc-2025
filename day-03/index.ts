@@ -63,7 +63,6 @@ async function solvePartTwo(filename: string) {
       }
     }
     highestJoltages.push(parseInt(result.join("")));
-    break;
   }
 
   const totalJoltageOutput = highestJoltages.reduce(
