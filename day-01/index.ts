@@ -46,7 +46,6 @@ async function solvePartTwo(filename: string): Promise<void> {
   let currentClick = 50;
   let zeroHitCounter = 0;
 
-  let counter = 0;
   for (const line of lines) {
     const direction = line[0];
     const clickCount = parseInt(line.slice(1));
