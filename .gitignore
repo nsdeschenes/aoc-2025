@@ -175,5 +175,5 @@ dist
 .DS_Store
 
 # Advent of Code inputs
-example-input
-puzzle-input
+example-input*
+puzzle-input*
